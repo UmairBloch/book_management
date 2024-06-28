@@ -17,7 +17,6 @@
                     </ul>
                 </div>
             @endif
-
             <form action="{{ route('books.store') }}" method="POST">
                 @csrf
 
@@ -44,7 +43,6 @@
                         @endforeach
                     </select>
                 </div>
-
                 <button type="submit" class="btn btn-primary">Add</button>
             </form>
         </div>
